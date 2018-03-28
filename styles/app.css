@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    overflow: scroll;
+}
+header {
+	background-color: black;
+    border-bottom: 4px solid yellow;
+    padding: 30px 50px 0px 10px;	
+}
+
+h1 {
+	color: yellow;
+    font-family: 'Merriweather', serif;
+}
+a {
+	color: white;
+}
+.d {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.e {text-decoration: none;
+}
+nav {
+	float: right;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-bottom: 30px;
+}
+nav ul {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+}
+li {
+    padding: 0px 10px 0px 10px;
+    float: right;
+    text-decoration: none;
+}
+.beg {
+    padding-bottom: 30px;
+}
+.subhead { 
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-size: 20px;
+    background: gray;
+    font-family: merriweather;
+    font-style: italic;
+}
+.callout {
+    position: relative;
+    padding-bottom: 10px;
+
+}
+.text-block {
+    position: absolute;    
+    bottom: 100px;
+    left: relative;
+    right: 50px;
+    background: rgba(255,255,255, 0.9);
+    color: black;
+    padding: 20px;
+    max-height: 100%;
+    max-width: 25%;
+    border: .5px solid black;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    background-color: white;
+    border-right: .5px solid gray;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-bottom: 0px;
+    height: 300px;
+    overflow: hidden;
+}
+h2 {
+    font-family: 'Merriweather', serif;
+}
+.button {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    background: yellow;
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 8px;
+}
+.column .button {
+    background: gray;
+}
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.no-side {
+    border-right: 0px solid black;
+}
+footer {
+    background: black;
+    color: white;
+}
+.foot {
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+    padding: 10px;
+}
+del {
+    color: #ccc;
+}
+ins {
+    color: yellow;
+}
